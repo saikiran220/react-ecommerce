@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.subheader-block{
+  background-color: rgb(193, 178, 152);padding: 10px;
+}
+.subheader-block h5{
+  font-size: 16px;
+}
+.breadCrumb{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  float: right;
+}
+.breadCrumb ul li{
+   display: inline-block;
+   margin-right: 20px; 
+   position: relative;}
+.breadCrumb ul li a{
+   text-decoration: none;
+  }
+  .breadCrumb ul li::before{content:'/'; position: absolute; top: -2px; left: -12px;}
+.breadCrumb ul li:first-child:before{content: "";}
