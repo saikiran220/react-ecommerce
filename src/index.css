@@ -32,3 +32,33 @@ code {
   }
   .breadCrumb ul li::before{content:'/'; position: absolute; top: -2px; left: -12px;}
 .breadCrumb ul li:first-child:before{content: "";}
+
+.loginContainer {
+  width:500px !important;
+  margin-top: 50px;
+  border: 1px solid #dee7f4;
+  background: #FFF;
+  padding: 50px;
+  padding-bottom: 30px;
+}
+#inputformControl{
+  width: 400px !important;
+  }
+  .text-danger{
+  width: 400px !important;
+  } 
+  .Submitbutton{
+    margin-top: 20px;
+  }
+  
+  .profile.dropdown .dropdown-toggle {
+    background: none;
+    /* border: none; */
+    width: 42px;
+    height: 42px;
+    background: #e7e7e7;
+    border-color: #d1d1d1;
+    border-radius: 100%;
+    /* margin-top: -8px; */
+      color: #505050;
+  }
